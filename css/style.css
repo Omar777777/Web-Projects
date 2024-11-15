@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Impact";
+    src: url(../fonts/impact.ttf) format("trueType"),
+    url(../fonts/Impact.woff) format("woff"),
+    url(../fonts/Impact.woff2) format("woff2")
+    ;
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src: url(../fonts/timesnewroman.ttf) format("trueType"),
+        url(../fonts/TimesNRCyrMT.woff) format("woff"),
+        url(../fonts/TimesNRCyrMT.woff2) format("woff2")
+        ;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url(../fonts/ARIAL.TTF) format("trueType"),
+        url(../fonts/ArialMT.woff) format("woff"),
+        url(../fonts/ArialMT.woff2) format("woff2");
+}
+
+main {
+
+    h1{
+        font-family: "Impact";
+        font-weight: 700;
+        font-size: 80px;
+        line-height: normal;
+        font-style: normal;
+        color: black;
+    }
+
+
+    p{
+        font-family: "Times New Roman";
+        font-weight: 400;
+        font-size: 35px;
+        line-height: normal;
+        font-style: normal;
+        color: black;
+
+    }
+
+    button{
+        font-family: "Arial";
+        font-weight: 400;
+        font-size: 13px;
+        line-height: normal;
+        font-style: normal;
+
+        padding: 1px 6px;
+        height: 80px;
+        width: 250px;
+        background-color: blue;
+        cursor: default !important;
+
+        &:hover{
+        background-color: green;
+        }
+
+    
+
+
+    }
+
+
+}
+
+
